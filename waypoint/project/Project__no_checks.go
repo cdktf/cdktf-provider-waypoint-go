@@ -7,6 +7,10 @@ package project
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (p *jsiiProxy_Project) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (p *jsiiProxy_Project) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (p *jsiiProxy_Project) validateGetStringMapAttributeParameters(terraformAtt
 	return nil
 }
 
+func (p *jsiiProxy_Project) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (p *jsiiProxy_Project) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_Project) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -68,6 +80,10 @@ func (p *jsiiProxy_Project) validatePutGitAuthSshParameters(value *ProjectGitAut
 }
 
 func (p *jsiiProxy_Project) validatePutProjectVariablesParameters(value interface{}) error {
+	return nil
+}
+
+func validateProject_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

@@ -15,6 +15,10 @@ func (w *jsiiProxy_WaypointProvider) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func validateWaypointProvider_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateWaypointProvider_IsConstructParameters(x interface{}) error {
 	return nil
 }

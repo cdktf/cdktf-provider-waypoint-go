@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataWaypointProject) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func validateDataWaypointProject_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataWaypointProject_IsConstructParameters(x interface{}) error {
 	return nil
 }
