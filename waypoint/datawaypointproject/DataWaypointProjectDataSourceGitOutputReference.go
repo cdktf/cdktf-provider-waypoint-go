@@ -5,9 +5,9 @@ package datawaypointproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-waypoint-go/waypoint/v2/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-waypoint-go/waypoint/v3/jsii"
 
-	"github.com/cdktf/cdktf-provider-waypoint-go/waypoint/v2/datawaypointproject/internal"
+	"github.com/cdktf/cdktf-provider-waypoint-go/waypoint/v3/datawaypointproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
